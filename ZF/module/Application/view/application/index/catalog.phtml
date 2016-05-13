@@ -1,0 +1,33 @@
+
+<div id="wrapper">
+
+    <!--      <div class="col-md-4">-->
+    <!--         <h1>My shop</h1>-->
+    <!--      </div>-->
+    <!--      <div class="col-md-6">-->
+    <!--         <img src="http://scontent-b.cdninstagram.com/hphotos-xfp1/t51.2885-15/1515341_1377857025802836_1279211066_n.jpg">-->
+    <!--      </div>-->
+    <div id="gradient">
+        <div class="content">
+            <div class="catalog-title">
+                <h1>Все Товары</h1>
+
+                <table class="table">
+                    <tr>
+                        <th>Title</th>
+                        <th>Artist</th>
+                      
+                    </tr>
+                    <?php foreach ($categories as $album) : ?>
+                        <tr>
+                            <td><?php echo $this->escapeHtml($album->id);?></td>
+                            <td><?php echo $this->escapeHtml($album->title);?></td>
+
+                        </tr>
+                    <?php endforeach; ?>
+                </table>
+        </div>
+    </div>
+
+
+</div>
