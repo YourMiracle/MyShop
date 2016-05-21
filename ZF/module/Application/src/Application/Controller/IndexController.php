@@ -19,12 +19,14 @@ class IndexController extends AbstractActionController
     {
         if (!$this->categoriesTable) {
             $sm = $this->getServiceLocator();
+           
             $this->categoriesTable = $sm->get('Application\Model\CategoriesTable');
         }
         return $this->categoriesTable;
     }
     public function indexAction()
     {
+        
         return new ViewModel(array(
             'categories' => $this->getCategoriesTable()->fetchAll(),
         ));

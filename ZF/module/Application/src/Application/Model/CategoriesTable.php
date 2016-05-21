@@ -34,22 +34,16 @@ class CategoriesTable
         }
         return $row;
     }
-    public function saveCategories(Categories $album)
+    public function saveCategories(Categories $categories)
     {
         $data = array(
-            'title'  => $album->title,
+            'title'  => $categories->title,
         );
 
-        $id = (int) $album->id;
-        if ($id == 0) {
+        $id = (int) $categories->id;
+
             $this->tableGateway->insert($data);
-        } else {
-            if ($this->getAlbum($id)) {
-                $this->tableGateway->update($data, array('id' => $id));
-            } else {
-                throw new \Exception('Categories id does not exist');
-            }
-        }
+
     }
 
     public function deleteAlbum($id)

@@ -104,30 +104,20 @@ return array(
                 ),
             ),
             'success' => array(
-                'type'    => 'Literal',
+                'type'    => 'segment',
                 'options' => array(
-                    'route'    => '/success',
+                    'route'    => '/success[/:controller_name][/:action_name]',
+                    'constraints' => array(
+                        'controller_name' => '[a-zA-Z]*',
+                        'action_name' => '[a-zA-Z]*',
+                    ),
                     'defaults' => array(
                         '__NAMESPACE__' => 'Application\Controller',
                         'controller'    => 'Success',
                         'action'        => 'index',
                     ),
-                ),
-                'may_terminate' => true,
-                'child_routes' => array(
-                    'default' => array(
-                        'type'    => 'Segment',
-                        'options' => array(
-                            'route'    => '/[:action]',
-                            'constraints' => array(
-                                'controller' => '[a-zA-Z][a-zA-Z0-9_-]*',
-                                'action'     => '[a-zA-Z][a-zA-Z0-9_-]*',
-                            ),
-                            'defaults' => array(
-                            ),
-                        ),
-                    ),
-                ),
+                )
+
             ),
             'application' => array(
                 'type'    => 'Literal',
@@ -181,7 +171,9 @@ return array(
         'invokables' => array(
             'Application\Controller\Index' => Controller\IndexController::class,
             'Application\Controller\Admin' => Controller\AdminController::class,
-            'Application\Controller\Success' => Controller\SuccessController::class
+            'Application\Controller\Success' => Controller\SuccessController::class,
+            'Application\Controller\Category' => Controller\CategoryController::class
+
         ),
     ),
     'view_manager' => array(
