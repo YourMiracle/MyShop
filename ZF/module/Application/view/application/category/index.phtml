@@ -1,3 +1,29 @@
-<h1>asdas</h1>
+<h1>Список категорий</h1>
 <a href="<?= $this->url('success', ['controller_name'=>'category','action_name'=>'add'])?> " >
     <button class="btn-default">Добавить товар</button></a>
+
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Название</th>
+        <th>Перейти к товарам</th>
+        <th>Удалить</th>
+        <th>Изменить</th>
+    </tr>
+    </thead>
+    <tbody>
+
+        <?php foreach($items as $v):?>
+        <tr>
+            <td><?= $v->title?></td>
+            <td class="products" data-id="<?= $v->id ?>">Товары</td>
+            <td><a href="<?=  $this->url('success', ['controller_name'=>'category','action_name'=>'delete','id'=>$v->id])?>">Удалить</a></td>
+            <td><a href="<?=  $this->url('success', ['controller_name'=>'category','action_name'=>'edit','id'=>$v->id])?>">Редактировать</a></td>
+        </tr>
+        <?php endforeach;?>
+
+    </tbody>
+
+
+</table>
