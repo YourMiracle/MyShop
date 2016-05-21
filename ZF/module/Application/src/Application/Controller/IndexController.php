@@ -38,7 +38,7 @@ class IndexController extends AbstractActionController
             'categories' => $this->getCategoriesTable()->fetchAll(),
         ));
     }
-    public function aandqAction(){
+    public function answerQuestionAction(){
         return new ViewModel();
     }
     public function reviewsAction(){

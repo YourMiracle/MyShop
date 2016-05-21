@@ -33,13 +33,13 @@ return array(
                     ),
                 ),
             ),
-            'aandq' => array(
+            'answerQuestion' => array(
                 'type' => 'Zend\Mvc\Router\Http\Literal',
                 'options' => array(
-                    'route'    => '/aandq',
+                    'route'    => '/answer_question',
                     'defaults' => array(
                         'controller' => 'Application\Controller\Index',
-                        'action'     => 'aandq',
+                        'action'     => 'answerQuestion',
                     ),
                 ),
             ),
