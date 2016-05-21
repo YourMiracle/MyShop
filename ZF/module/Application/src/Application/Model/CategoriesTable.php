@@ -46,7 +46,19 @@ class CategoriesTable
 
     }
 
-    public function deleteAlbum($id)
+    public function update(Categories $categories)
+    {
+        $data = array(
+            'title'  => $categories->title,
+        );
+
+        $id = (int) $categories->id;
+
+        $this->tableGateway->update($data,['id'=>$id]);
+
+    }
+
+    public function delete($id)
     {
         $this->tableGateway->delete(array('id' => (int) $id));
     }
