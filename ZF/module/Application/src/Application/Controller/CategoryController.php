@@ -85,4 +85,6 @@ class CategoryController extends Controller
         $this->getCategoriesTable()->delete($id);
         return $this->thisVar->redirect()->toUrl('/success/category/index');
     }
+
+
 }

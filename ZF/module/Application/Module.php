@@ -11,6 +11,10 @@ namespace Application;
 
 use Application\Model\Categories;
 use Application\Model\CategoriesTable;
+use Application\Model\Products;
+use Application\Model\ProductsTable;
+use Application\Model\Properties;
+use Application\Model\PropertiesTable;
 use Zend\Mvc\ModuleRouteListener;
 use Zend\Mvc\MvcEvent;
 use Zend\Authentication\Adapter\DbTable as DbTableAuthAdapter;
@@ -57,6 +61,28 @@ class Module
                     $resultSetPrototype = new ResultSet();
                     $resultSetPrototype->setArrayObjectPrototype(new Categories());
                     return new TableGateway('categories', $dbAdapter, null, $resultSetPrototype);
+                },
+                'Application\Model\ProductsTable' =>  function($sm) {
+                    $tableGateway = $sm->get('ProductsTableGateway');
+                    $table = new ProductsTable($tableGateway);
+                    return $table;
+                },
+                'ProductsTableGateway' => function ($sm) {
+                    $dbAdapter = $sm->get('Zend\Db\Adapter\Adapter');
+                    $resultSetPrototype = new ResultSet();
+                    $resultSetPrototype->setArrayObjectPrototype(new Products());
+                    return new TableGateway('products', $dbAdapter, null, $resultSetPrototype);
+                },
+                'Application\Model\PropertiesTable' =>  function($sm) {
+                    $tableGateway = $sm->get('PropertiesTableGateway');
+                    $table = new PropertiesTable($tableGateway);
+                    return $table;
+                },
+                'PropertiesTableGateway' => function ($sm) {
+                    $dbAdapter = $sm->get('Zend\Db\Adapter\Adapter');
+                    $resultSetPrototype = new ResultSet();
+                    $resultSetPrototype->setArrayObjectPrototype(new Properties());
+                    return new TableGateway('products_propeties', $dbAdapter, null, $resultSetPrototype);
                 },
             ),
         );

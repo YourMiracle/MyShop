@@ -1,0 +1,23 @@
+<h1>Редактируем</h1>
+<form method="post" enctype="multipart/form-data" >
+    <input type="text" name="title" value="<?= $this->data->title ?>" placeholder="Название">
+    <input type="hidden" name="id" value="<?= $this->data->id ?>">
+    <input type="hidden" name="categories_id" value="<?= $this->data->categories_id ?>">
+    <input type="text" name="costoff" value="<?= $this->data->costoff ?>" placeholder="Цена за ед.">
+    <input type="file" name="path" value="<?= $this->data->path ?>">
+    <label>Описание</label>
+    <textarea name="description" id="" cols="30" rows="10"><?= $this->data->description ?></textarea>
+
+
+    <input type="text" name="size" placeholder="Размер" value="<?= $this->properties['Размер']?>">
+    <input type="text" name="material" placeholder="Материал" value="<?= $this->properties['Материал']?>">
+    <input type="text" name="time" placeholder="Время года" value="<?= $this->properties['Время года']?>">
+    <input type="text" name="color" placeholder="Цвет" value="<?= $this->properties['Цвет']?>"    >
+
+    <label><?= $this->error ?></label>
+    <input type="submit" value="Отправить">
+</form>
+
+<img  style="width: 300px" src="<?= $this->data->path ?>">
+
+
