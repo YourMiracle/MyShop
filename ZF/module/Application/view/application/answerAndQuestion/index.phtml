@@ -1,0 +1,23 @@
+<h1>Вопросы</h1>
+<table class="table">
+    <thead>
+    <tr>
+        <th>Ник</th>
+        <th>Вопрос</th>
+        <th>Ответить</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <?php foreach($question as $q):?>
+        <tr>
+            <td><?= $q->nickname?></td>
+            <td><?= $q->question ?></td>
+            <td><a href="<?=  $this->url('success', ['controller_name'=>'answerAndQuestion','action_name'=>'switch','id'=>$v->id])?>"><?= $q->publish ? 'Видно': 'Не видно' ?></a> </td>
+        </tr>
+    <?php endforeach;?>
+
+    </tbody>
+
+
+</table>

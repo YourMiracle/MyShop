@@ -15,10 +15,10 @@ return array(
             'home' => array(
                 'type' => 'Zend\Mvc\Router\Http\Literal',
                 'options' => array(
-                    'route'    => '/',
+                    'route' => '/',
                     'defaults' => array(
                         'controller' => 'Application\Controller\Index',
-                        'action'     => 'index',
+                        'action' => 'index',
                     ),
                 ),
             ),
@@ -53,6 +53,27 @@ return array(
                     ),
                 ),
             ),
+            'writeQuestion' => array(
+                'type' => 'Zend\Mvc\Router\Http\Literal',
+                'options' => array(
+                    'route' => '/writeQuestion',
+                    'defaults' => array(
+                        'controller' => 'Application\Controller\Index',
+                        'action' => 'writeQuestion',
+                    ),
+                ),
+            ),
+            'reviews' => array(
+                'type' => 'Zend\Mvc\Router\Http\Literal',
+                'options' => array(
+                    'route' => '/reviews',
+                    'defaults' => array(
+                        'controller' => 'Application\Controller\Index',
+                        'action' => 'reviews',
+                    ),
+                ),
+            ),
+
             // The following is a route to simplify getting started creating
             // new controllers and actions without needing to create a new
             // module. Simply drop new controllers in, and you can access them

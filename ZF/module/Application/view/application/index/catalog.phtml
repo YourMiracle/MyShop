@@ -1,33 +1,78 @@
 
 <div id="wrapper">
 
-    <!--      <div class="col-md-4">-->
-    <!--         <h1>My shop</h1>-->
-    <!--      </div>-->
-    <!--      <div class="col-md-6">-->
-    <!--         <img src="http://scontent-b.cdninstagram.com/hphotos-xfp1/t51.2885-15/1515341_1377857025802836_1279211066_n.jpg">-->
-    <!--      </div>-->
-    <div id="gradient">
-        <div class="content">
-            <div class="catalog-title">
-                <h1>Все Товары</h1>
 
-                <table class="table">
-                    <tr>
-                        <th>Title</th>
-                        <th>Artist</th>
-                      
-                    </tr>
-                    <?php foreach ($categories as $album) : ?>
-                        <tr>
-                            <td><?php echo $this->escapeHtml($album->id);?></td>
-                            <td><?php echo $this->escapeHtml($album->title);?></td>
+        <div id="wrapper">
+            <div id="content">
+                <div class="sidebar">
+                    <ul class="list-group">
+                        <?php foreach ($this->cats as $k => $cat) :                        ?>
 
-                        </tr>
-                    <?php endforeach; ?>
-                </table>
-        </div>
-    </div>
+                        <a href="#"><li  data-id="<?= $cat->id?>" class="list-group-item <?= $k == 0 ? 'border-top': ''?> <?= (count($this->cats) - 1) == $k ?'li-border': ''?>"><?= $cat->title?></li></a>
+                        <?php endforeach; ?>
+
+                    </ul>
+                    <div class="filter">
+                        <h2>Фильтры по ценам</h2>
+                        <?php foreach ($this->prices as $price) :?>
+                            <label><input value="<?= $price  ?>" class="filter-price" type="checkbox"><?= $price  ?></label>
+                        <?php endforeach;?>
+
+
+                    </div>
+                    <button class="clear-filter">Сбросить фильтры</button>
+                </div>
+                <div class="goods">
+                    <h1>Товары</h1>
+
+
+
+                        <?php $iter = 0 ;foreach($list as $value):?>
+                            <?php foreach($value as $v):;
+                                if($iter % 4 == 0 or $iter == 0):?>
+                    <div class="row">
+                                <?php endif;?>
+                        <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 goods-item">
+                            <a href="#"><img style="max-width: 236.500px;max-height: 100px" src="<?= $v['path']?>"></a>
+                            <a href="#">
+                                <div class="describe-goods">
+                                    <h4><?= $v['title_cat']?></h4>
+                                    <p><?= $v['title']?></p>
+                                    <p><?= $v['costoff']?> UAH</p>
+                                </div>
+                            </a>
+                        </div>
+                        <?php if($iter % 4 == 0 && $iter != 0):?>
+                        </div>
+                            <?php endif;?>
+                            <?php $iter++;endforeach;?>
+                        <?php endforeach;?>
+
+
+
+                </div>
+            </div>
+
+<!--        <div class="content">-->
+<!--            <div class="catalog-title">-->
+<!--                <h1>Все Товары</h1>-->
+<!---->
+<!--                <table class="table">-->
+<!--                    <tr>-->
+<!--                        <th>Title</th>-->
+<!--                        <th>Artist</th>-->
+<!--                      -->
+<!--                    </tr>-->
+<!--                    --><?php //foreach ($categories as $album) : ?>
+<!--                        <tr>-->
+<!--                            <td>--><?php //echo $this->escapeHtml($album->id);?><!--</td>-->
+<!--                            <td>--><?php //echo $this->escapeHtml($album->title);?><!--</td>-->
+<!---->
+<!--                        </tr>-->
+<!--                    --><?php //endforeach; ?>
+<!--                </table>-->
+<!--        </div>-->
+<!--    </div>-->
 
 
 </div>

@@ -2,130 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d18e5351-aef6-4dc3-a287-eb887fd141cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/ProductsController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Products.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/ProductsTable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Properties.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/PropertiesTable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/view/application/products/add.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/view/application/products/edit.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/view/application/products/index.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/ZF/public/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/ZF/public/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/ZF/public/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/images/bx-next.png" afterPath="$PROJECT_DIR$/ZF/public/images/bx-next.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/images/bx-prev.png" afterPath="$PROJECT_DIR$/ZF/public/images/bx-prev.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/images/bx_loader.gif" afterPath="$PROJECT_DIR$/ZF/public/images/bx_loader.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/images/controls.png" afterPath="$PROJECT_DIR$/ZF/public/images/controls.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/images/slide1.jpg" afterPath="$PROJECT_DIR$/ZF/public/images/slide1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/images/slide2.jpg" afterPath="$PROJECT_DIR$/ZF/public/images/slide2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/images/slide3.jpg" afterPath="$PROJECT_DIR$/ZF/public/images/slide3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/images/slide4.jpg" afterPath="$PROJECT_DIR$/ZF/public/images/slide4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/img/favicon.ico" afterPath="$PROJECT_DIR$/ZF/public/img/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/img/pic1.jpg" afterPath="$PROJECT_DIR$/ZF/public/img/pic1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/img/pic2.jpg" afterPath="$PROJECT_DIR$/ZF/public/img/pic2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/img/pic3.jpg" afterPath="$PROJECT_DIR$/ZF/public/img/pic3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/img/zf2-logo.png" afterPath="$PROJECT_DIR$/ZF/public/img/zf2-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/AnswerAndQuestionController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/ReviewsController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/AnswerAndQuestion.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/AnswerAndQuestionTable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Reviews.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/ReviewsTable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/view/application/answerAndQuestion/index.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/view/application/index/answer-question.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/view/application/reviews/index.phtml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/module/Application/view/application/index/aandq.phtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/php6U1yuM_img_D.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/php7eaocD_img_D.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phpCzu4ng_img_D.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phpFxpkvj_img_D.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phpHbKH1g_img_D.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phpMR5hpA_img_D.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phpaQkHcC_cat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phpdEYC4u_img_D.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phpfy2ZSZ_img_D.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phpgsKDAZ_images.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phpnE0l9M_img_D.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phprNEvTA_rklc-pjt8gE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phprXb3NU_img_D.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phpyRfd3f_img_D.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/shop.iml" afterPath="$PROJECT_DIR$/.idea/shop.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/.gitignore" afterPath="$PROJECT_DIR$/ZF/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/LICENSE.txt" afterPath="$PROJECT_DIR$/ZF/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/README.md" afterPath="$PROJECT_DIR$/ZF/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/Vagrantfile" afterPath="$PROJECT_DIR$/ZF/Vagrantfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/composer.json" afterPath="$PROJECT_DIR$/ZF/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/composer.lock" afterPath="$PROJECT_DIR$/ZF/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/config/application.config.php" afterPath="$PROJECT_DIR$/ZF/config/application.config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/config/autoload/.gitignore" afterPath="$PROJECT_DIR$/ZF/config/autoload/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/config/autoload/README.md" afterPath="$PROJECT_DIR$/ZF/config/autoload/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/config/autoload/global.php" afterPath="$PROJECT_DIR$/ZF/config/autoload/global.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/data/cache/.gitignore" afterPath="$PROJECT_DIR$/ZF/data/cache/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/init_autoloader.php" afterPath="$PROJECT_DIR$/ZF/init_autoloader.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/Module.php" afterPath="$PROJECT_DIR$/ZF/module/Application/Module.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/config/module.config.php" afterPath="$PROJECT_DIR$/ZF/module/Application/config/module.config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/ar_JO.mo" afterPath="$PROJECT_DIR$/ZF/module/Application/language/ar_JO.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/ar_JO.po" afterPath="$PROJECT_DIR$/ZF/module/Application/language/ar_JO.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/ar_SY.mo" afterPath="$PROJECT_DIR$/ZF/module/Application/language/ar_SY.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/ar_SY.po" afterPath="$PROJECT_DIR$/ZF/module/Application/language/ar_SY.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/cs_CZ.mo" afterPath="$PROJECT_DIR$/ZF/module/Application/language/cs_CZ.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/cs_CZ.po" afterPath="$PROJECT_DIR$/ZF/module/Application/language/cs_CZ.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/de_DE.mo" afterPath="$PROJECT_DIR$/ZF/module/Application/language/de_DE.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/de_DE.po" afterPath="$PROJECT_DIR$/ZF/module/Application/language/de_DE.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/en_US.mo" afterPath="$PROJECT_DIR$/ZF/module/Application/language/en_US.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/en_US.po" afterPath="$PROJECT_DIR$/ZF/module/Application/language/en_US.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/es_ES.mo" afterPath="$PROJECT_DIR$/ZF/module/Application/language/es_ES.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/es_ES.po" afterPath="$PROJECT_DIR$/ZF/module/Application/language/es_ES.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/fr_CA.mo" afterPath="$PROJECT_DIR$/ZF/module/Application/language/fr_CA.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/fr_CA.po" afterPath="$PROJECT_DIR$/ZF/module/Application/language/fr_CA.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/fr_FR.mo" afterPath="$PROJECT_DIR$/ZF/module/Application/language/fr_FR.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/fr_FR.po" afterPath="$PROJECT_DIR$/ZF/module/Application/language/fr_FR.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/it_IT.mo" afterPath="$PROJECT_DIR$/ZF/module/Application/language/it_IT.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/it_IT.po" afterPath="$PROJECT_DIR$/ZF/module/Application/language/it_IT.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/ja_JP.mo" afterPath="$PROJECT_DIR$/ZF/module/Application/language/ja_JP.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/ja_JP.po" afterPath="$PROJECT_DIR$/ZF/module/Application/language/ja_JP.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/nb_NO.mo" afterPath="$PROJECT_DIR$/ZF/module/Application/language/nb_NO.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/nb_NO.po" afterPath="$PROJECT_DIR$/ZF/module/Application/language/nb_NO.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/nl_NL.mo" afterPath="$PROJECT_DIR$/ZF/module/Application/language/nl_NL.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/nl_NL.po" afterPath="$PROJECT_DIR$/ZF/module/Application/language/nl_NL.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/pl_PL.mo" afterPath="$PROJECT_DIR$/ZF/module/Application/language/pl_PL.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/pl_PL.po" afterPath="$PROJECT_DIR$/ZF/module/Application/language/pl_PL.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/pt_BR.mo" afterPath="$PROJECT_DIR$/ZF/module/Application/language/pt_BR.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/pt_BR.po" afterPath="$PROJECT_DIR$/ZF/module/Application/language/pt_BR.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/ru_RU.mo" afterPath="$PROJECT_DIR$/ZF/module/Application/language/ru_RU.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/ru_RU.po" afterPath="$PROJECT_DIR$/ZF/module/Application/language/ru_RU.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/sk_SK.mo" afterPath="$PROJECT_DIR$/ZF/module/Application/language/sk_SK.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/sk_SK.po" afterPath="$PROJECT_DIR$/ZF/module/Application/language/sk_SK.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/sl_SI.mo" afterPath="$PROJECT_DIR$/ZF/module/Application/language/sl_SI.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/sl_SI.po" afterPath="$PROJECT_DIR$/ZF/module/Application/language/sl_SI.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/tr_TR.mo" afterPath="$PROJECT_DIR$/ZF/module/Application/language/tr_TR.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/tr_TR.po" afterPath="$PROJECT_DIR$/ZF/module/Application/language/tr_TR.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/uk_UA.mo" afterPath="$PROJECT_DIR$/ZF/module/Application/language/uk_UA.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/uk_UA.po" afterPath="$PROJECT_DIR$/ZF/module/Application/language/uk_UA.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/vi_VN.mo" afterPath="$PROJECT_DIR$/ZF/module/Application/language/vi_VN.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/vi_VN.po" afterPath="$PROJECT_DIR$/ZF/module/Application/language/vi_VN.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/zh_CN.mo" afterPath="$PROJECT_DIR$/ZF/module/Application/language/zh_CN.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/zh_CN.po" afterPath="$PROJECT_DIR$/ZF/module/Application/language/zh_CN.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/zh_TW.mo" afterPath="$PROJECT_DIR$/ZF/module/Application/language/zh_TW.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/language/zh_TW.po" afterPath="$PROJECT_DIR$/ZF/module/Application/language/zh_TW.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/AdminController.php" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/AdminController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/CategoryController.php" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/CategoryController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/Controller.php" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/Controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/IndexController.php" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/SuccessController.php" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/SuccessController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/src/Application/Forms/Auth/Login.php" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Forms/Auth/Login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Categories.php" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Categories.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/ProductsController.php" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/ProductsController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/CategoriesTable.php" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/CategoriesTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/MyAuthStorage.php" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/MyAuthStorage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/User.php" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/view/application/admin/login.phtml" afterPath="$PROJECT_DIR$/ZF/module/Application/view/application/admin/login.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/view/application/category/add.phtml" afterPath="$PROJECT_DIR$/ZF/module/Application/view/application/category/add.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/view/application/category/edit.phtml" afterPath="$PROJECT_DIR$/ZF/module/Application/view/application/category/edit.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/ProductsTable.php" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/ProductsTable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/PropertiesTable.php" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/PropertiesTable.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/view/application/category/index.phtml" afterPath="$PROJECT_DIR$/ZF/module/Application/view/application/category/index.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/view/application/index/Nike.phtml" afterPath="$PROJECT_DIR$/ZF/module/Application/view/application/index/Nike.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/view/application/index/aandq.phtml" afterPath="$PROJECT_DIR$/ZF/module/Application/view/application/index/aandq.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/view/application/index/catalog.phtml" afterPath="$PROJECT_DIR$/ZF/module/Application/view/application/index/catalog.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/view/application/index/index.phtml" afterPath="$PROJECT_DIR$/ZF/module/Application/view/application/index/index.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/view/application/index/reviews.phtml" afterPath="$PROJECT_DIR$/ZF/module/Application/view/application/index/reviews.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/view/application/success/index.phtml" afterPath="$PROJECT_DIR$/ZF/module/Application/view/application/success/index.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/view/error/404.phtml" afterPath="$PROJECT_DIR$/ZF/module/Application/view/error/404.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/view/error/index.phtml" afterPath="$PROJECT_DIR$/ZF/module/Application/view/error/index.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/view/layout/admin.phtml" afterPath="$PROJECT_DIR$/ZF/module/Application/view/layout/admin.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/view/layout/layout.phtml" afterPath="$PROJECT_DIR$/ZF/module/Application/view/layout/layout.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/.htaccess" afterPath="$PROJECT_DIR$/ZF/public/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/ZF/public/css/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/ZF/public/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/css/bootstrap.css" afterPath="$PROJECT_DIR$/ZF/public/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/ZF/public/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/css/jquery.bxslider.css" afterPath="$PROJECT_DIR$/ZF/public/css/jquery.bxslider.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/css/style.css" afterPath="$PROJECT_DIR$/ZF/public/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/ZF/public/fonts/glyphicons-halflings-regular.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/index.php" afterPath="$PROJECT_DIR$/ZF/public/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/js/bootstrap.js" afterPath="$PROJECT_DIR$/ZF/public/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/ZF/public/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/js/html5shiv.js" afterPath="$PROJECT_DIR$/ZF/public/js/html5shiv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/js/html5shiv.min.js" afterPath="$PROJECT_DIR$/ZF/public/js/html5shiv.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/js/jquery-1.11.1.min.map" afterPath="$PROJECT_DIR$/ZF/public/js/jquery-1.11.1.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/js/jquery.bxslider.min.js" afterPath="$PROJECT_DIR$/ZF/public/js/jquery.bxslider.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/js/jquery.min.js" afterPath="$PROJECT_DIR$/ZF/public/js/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/js/respond.min.js" afterPath="$PROJECT_DIR$/ZF/public/js/respond.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/js/scripts.js" afterPath="$PROJECT_DIR$/ZF/public/js/scripts.js" />
     </list>
     <ignored path="shop.iws" />
@@ -158,20 +78,6 @@
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="MySQL - shop@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="categories" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -179,33 +85,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProductsController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/ProductsController.php">
+      <file leaf-file-name="Products.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Products.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.3285198">
-              <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
-              <folding>
-                <element signature="e#40#71#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Properties.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Properties.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.888889">
-              <caret line="22" column="53" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="53" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropertiesTable.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/PropertiesTable.php">
+      <file leaf-file-name="edit.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/category/edit.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.222222">
-              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -214,10 +108,60 @@
       <file leaf-file-name="edit.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/products/edit.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.222222">
-              <caret line="14" column="89" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
+            <state vertical-scroll-proportion="-4.0">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZF/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.0">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bx-next.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZF/public/images/bx-next.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/category/index.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.3333334">
+              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductsController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/ProductsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.71681416">
+              <caret line="145" column="27" selection-start-line="145" selection-start-column="27" selection-end-line="145" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="catalog.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/index/catalog.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.333333">
+              <caret line="17" column="112" selection-start-line="17" selection-start-column="112" selection-end-line="17" selection-end-column="112" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+                <marker date="1465073582393" expanded="true" signature="1427:1532" placeholder="..." />
+                <marker date="1465073582393" expanded="false" signature="1481:1519" placeholder="..." />
+                <marker date="1465073582393" expanded="true" signature="1588:1697" placeholder="..." />
+                <marker date="1465073582393" expanded="true" signature="1649:1697" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -226,28 +170,8 @@
       <file leaf-file-name="ProductsTable.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/ProductsTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5555553">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoriesTable.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/CategoriesTable.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-35.555557">
-              <caret line="60" column="26" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Products.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Products.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.222222">
-              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+            <state vertical-scroll-proportion="-14.148149">
+              <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -268,19 +192,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ZendSkeletonApplication/public/.htaccess" />
-        <option value="$PROJECT_DIR$/ZendSkeletonApplication/public/index.php" />
         <option value="$PROJECT_DIR$/ZF/public/js/jquery.min.js" />
         <option value="$PROJECT_DIR$/ZF/module/Application/view/application/index/answerandquastions.phtml" />
-        <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/ReviewsController.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2ae95c5c-99f4-4179-aced-49c528c2b552/console.sql" />
         <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Application.php" />
         <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Index.php" />
         <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Shop.php" />
-        <option value="$PROJECT_DIR$/ZF/config/autoload/global.php" />
-        <option value="$PROJECT_DIR$/ZF/config/autoload/local.php" />
-        <option value="$PROJECT_DIR$/ZF/module/Application/view/application/index/catalog.phtml" />
-        <option value="$PROJECT_DIR$/ZF/public/js/scripts.js" />
+        <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Categories.php" />
         <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Forms/Auth/Lohin.php" />
         <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/MyAuthStorage.php" />
         <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/User.php" />
@@ -288,35 +206,42 @@
         <option value="$PROJECT_DIR$/ZF/module/Application/view/application/index/index.phtml" />
         <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/AdminController.php" />
         <option value="/var/www/html/index.php" />
-        <option value="$PROJECT_DIR$/ZF/public/css/style.css" />
         <option value="$PROJECT_DIR$/ZF/module/Application/view/application/index/aandq.phtml" />
-        <option value="$PROJECT_DIR$/ZF/module/Application/view/application/index/reviews.phtml" />
         <option value="$PROJECT_DIR$/ZF/module/Application/view/application/index/Nike.phtml" />
         <option value="$PROJECT_DIR$/ZF/module/Application/view/application/admin/login.phtml" />
         <option value="$PROJECT_DIR$/ZF/module/Application/view/application/success/index.phtml" />
-        <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/IndexController.php" />
         <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/SuccessController.php" />
         <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/Controller.php" />
         <option value="$PROJECT_DIR$/ZF/module/Application/view/application/category/add.phtml" />
-        <option value="$PROJECT_DIR$/ZF/module/Application/view/layout/admin.phtml" />
-        <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Categories.php" />
-        <option value="$PROJECT_DIR$/ZF/module/Application/view/application/category/edit.phtml" />
-        <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/CategoriesTable.php" />
-        <option value="$PROJECT_DIR$/ZF/module/Application/config/module.config.php" />
-        <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/ProductController.php" />
-        <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/CategoryController.php" />
-        <option value="$PROJECT_DIR$/ZF/module/Application/view/application/category/index.phtml" />
-        <option value="$PROJECT_DIR$/ZF/public/index.php" />
-        <option value="$PROJECT_DIR$/ZF/module/Application/view/application/products/index.phtml" />
-        <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Products.php" />
+        <option value="$PROJECT_DIR$/ZF/module/Application/view/application/index/answer_question.phtml" />
+        <option value="$PROJECT_DIR$/ZF/config/autoload/local.php" />
         <option value="$PROJECT_DIR$/ZF/module/Application/view/layout/layout.phtml" />
-        <option value="$PROJECT_DIR$/ZF/vendor/zendframework/zend-file/src/Transfer/Adapter/Http.php" />
-        <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Properties.php" />
+        <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/CategoryController.php" />
+        <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Reviews.php" />
+        <option value="$PROJECT_DIR$/ZF/module/Application/view/application/index/take-review.phtml" />
+        <option value="$PROJECT_DIR$/ZF/module/Application/view/application/reviews/index.phtml" />
+        <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/ReviewsController.php" />
+        <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/AnswerAndQuestion.php" />
+        <option value="$PROJECT_DIR$/ZF/module/Application/view/application/answerandquestion/index.phtml" />
+        <option value="$PROJECT_DIR$/ZF/module/Application/view/layout/admin.phtml" />
         <option value="$PROJECT_DIR$/ZF/module/Application/Module.php" />
-        <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/ProductsTable.php" />
-        <option value="$PROJECT_DIR$/ZF/module/Application/view/application/products/add.phtml" />
+        <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/ReviewsTable.php" />
+        <option value="$PROJECT_DIR$/ZF/public/css/style.css" />
+        <option value="$PROJECT_DIR$/ZF/module/Application/view/application/index/reviews.phtml" />
+        <option value="$PROJECT_DIR$/ZF/module/Application/view/application/index/answer-question.phtml" />
+        <option value="$PROJECT_DIR$/ZF/module/Application/config/module.config.php" />
+        <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/AnswerAndQuestionController.php" />
+        <option value="$PROJECT_DIR$/ZF/module/Application/view/application/answerAndQuestion/index.phtml" />
+        <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/AnswerAndQuestionTable.php" />
+        <option value="$PROJECT_DIR$/ZF/config/autoload/global.php" />
+        <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/CategoriesTable.php" />
         <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/PropertiesTable.php" />
-        <option value="$PROJECT_DIR$/ZF/module/Application/view/application/products/edit.phtml" />
+        <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/IndexController.php" />
+        <option value="$PROJECT_DIR$/ZF/public/js/scripts.js" />
+        <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/ProductsTable.php" />
+        <option value="$PROJECT_DIR$/ZF/module/Application/view/application/index/catalog.phtml" />
+        <option value="$PROJECT_DIR$/ZF/public/index.php" />
+        <option value="$PROJECT_DIR$/ZF/module/Application/view/application/category/index.phtml" />
         <option value="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/ProductsController.php" />
       </list>
     </option>
@@ -328,6 +253,9 @@
   </component>
   <component name="PhpServers">
     <servers />
+  </component>
+  <component name="PhpTemplates">
+    <option name="NEW_PHP_FILE_LAST_EXTENSION" value="phtml" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -359,6 +287,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -428,7 +357,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ZF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -451,36 +402,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -537,10 +458,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="success" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -605,6 +522,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -720,21 +641,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyShop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
+              <option name="myItemId" value="ZF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -747,8 +681,6 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ZF/module/Application/src/Application/Model" />
-      <recent name="$PROJECT_DIR$/ZF/module/Application/view/application/products" />
       <recent name="$PROJECT_DIR$/ZF/module/Application/view/application/index" />
       <recent name="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller" />
       <recent name="$PROJECT_DIR$/ZendSkeletonApplication" />
@@ -846,24 +778,32 @@
       <workItem from="1462892101259" duration="1244000" />
       <workItem from="1463091872680" duration="3453000" />
       <workItem from="1463331357902" duration="19628000" />
-      <workItem from="1463835319700" duration="1577000" />
+      <workItem from="1463835319700" duration="3460000" />
+      <workItem from="1463841246754" duration="2361000" />
+      <workItem from="1463925001504" duration="3365000" />
+      <workItem from="1464016998023" duration="927000" />
+      <workItem from="1464018172979" duration="23000" />
+      <workItem from="1464384288842" duration="9667000" />
+      <workItem from="1464716608333" duration="3976000" />
+      <workItem from="1464895288631" duration="5507000" />
+      <workItem from="1465053798021" duration="7169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115905000" />
+    <option name="totallyTimeSpent" value="158183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="743" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27565983" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2771261" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33665007" sideWeight="0.503096" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20863836" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48372093" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2124031" sideWeight="0.49690402" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -896,52 +836,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ZF/config/autoload/global.php">
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/index/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/composer.json">
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Forms/Auth/Login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///var/www/html/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/config/application.config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/index/aandq.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/index/reviews.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/admin/login.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -952,192 +857,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/vendor/zendframework/zend-view/src/Model/ViewModel.php">
+    <entry file="file://$PROJECT_DIR$/ZF/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="311" column="20" selection-start-line="311" selection-start-column="20" selection-end-line="311" selection-end-column="20" />
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/vendor/zendframework/zend-servicemanager/src/ServiceLocatorInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/MyAuthStorage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/ZF/config/application.config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/public/css/style.css">
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/error/404.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="113" column="23" selection-start-line="113" selection-start-column="23" selection-end-line="113" selection-end-column="23" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/config/autoload/local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43665767">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19459459">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04851752">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/vendor/zendframework/zend-http/src/Response/Stream.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.064151">
-          <caret line="153" column="83" selection-start-line="153" selection-start-column="81" selection-end-line="153" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/vendor/zendframework/zend-db/src/TableGateway/TableGateway.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3333334">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/vendor/zendframework/zend-http/src/Response.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.93039">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/layout/admin.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.481482">
-          <caret line="46" column="136" selection-start-line="46" selection-start-column="66" selection-end-line="46" selection-end-column="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/index/catalog.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.4814816">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Categories.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/SuccessController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6666667">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/vendor/zendframework/zend-mvc/src/Controller/AbstractActionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0465117">
-          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/vendor/zendframework/zend-mvc/src/Controller/AbstractController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8837209">
-          <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.407408">
-          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/public/index.php">
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/admin/login.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/category/index.phtml">
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/category/add.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/products/index.phtml">
+    <entry file="file://$PROJECT_DIR$/ZF/public/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="119" selection-start-line="18" selection-start-column="119" selection-end-line="18" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/index/Nike.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/layout/layout.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.58221024">
-          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/vendor/zendframework/zend-file/src/Transfer/Adapter/AbstractAdapter.php">
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/SuccessController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06469002">
-          <caret line="944" column="20" selection-start-line="944" selection-start-column="20" selection-end-line="944" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/layout/admin.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="113" selection-start-line="48" selection-start-column="113" selection-end-line="48" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/Module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="58" selection-start-line="84" selection-start-column="58" selection-end-line="84" selection-end-column="58" />
+          <folding>
+            <element signature="e#354#387#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/vendor/zendframework/zend-mvc/src/Controller/AbstractController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/vendor/zendframework/zend-mvc/src/Controller/Plugin/Redirect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="155" column="1" selection-start-line="155" selection-start-column="1" selection-end-line="155" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/index/reviews.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Reviews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/ReviewsTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/reviews/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/index/answer-question.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1145,132 +998,241 @@
     <entry file="file://$PROJECT_DIR$/ZF/module/Application/config/module.config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/vendor/zendframework/zend-file/src/Transfer/Adapter/Http.php">
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/answerAndQuestion/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="289" column="27" selection-start-line="289" selection-start-column="27" selection-end-line="289" selection-end-column="27" />
+          <caret line="15" column="83" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/index/index.phtml">
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/AnswerAndQuestionController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+          <folding>
+            <element signature="e#42#91#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/AnswerAndQuestion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/category/edit.phtml">
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/ReviewsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/AnswerAndQuestionTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.148149">
+          <caret line="50" column="50" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/config/autoload/global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1851852">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6666667">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Categories.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.0">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/category/add.phtml">
+    <entry file="file://$PROJECT_DIR$/ZF/vendor/zendframework/zend-db/src/Sql/Join.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0">
-          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/Module.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="15.333333">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/vendor/zendframework/zend-db/src/Adapter/Driver/ResultInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0740743">
-          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/products/add.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state vertical-scroll-proportion="-5.037037">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/CategoriesTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-35.555557">
-          <caret line="60" column="26" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.7351695">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Properties.php">
+    <entry file="file://$PROJECT_DIR$/ZF/vendor/zendframework/zend-db/src/Sql/Select.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.888889">
-          <caret line="22" column="53" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.33262712">
+          <caret line="278" column="50" selection-start-line="278" selection-start-column="38" selection-end-line="278" selection-end-column="50" />
+          <folding>
+            <marker date="1460644036000" expanded="true" signature="1919:1940" placeholder="SELECT %1$s " />
+            <marker date="1460644036000" expanded="true" signature="2070:2096" placeholder="SELECT %1$s " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/vendor/zendframework/zend-db/src/Sql/Sql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6666665">
+          <caret line="81" column="23" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/ProductsTable.php">
+    <entry file="file://$PROJECT_DIR$/ZF/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/js/d3.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5555553">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.34863946">
+          <caret line="2" column="14484" selection-start-line="2" selection-start-column="14484" selection-end-line="2" selection-end-column="14484" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZF/vendor/zendframework/zend-db/src/TableGateway/AbstractTableGateway.php">
+    <entry file="file://$PROJECT_DIR$/ZF/public/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.015053763">
-          <caret line="180" column="20" selection-start-line="180" selection-start-column="20" selection-end-line="180" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.18367347">
+          <caret line="1" column="819" selection-start-line="1" selection-start-column="819" selection-end-line="1" selection-end-column="819" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/public/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="158" column="40" selection-start-line="158" selection-start-column="40" selection-end-line="158" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.5185184">
+          <caret line="82" column="11" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
+          <folding>
+            <element signature="e#365#405#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_9.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43141592">
+          <caret line="235" column="31" selection-start-line="235" selection-start-column="19" selection-end-line="235" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/PropertiesTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.222222">
-          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+        <state vertical-scroll-proportion="-12.851851">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Products.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.222222">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/ProductsTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.148149">
+          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/index/catalog.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.333333">
+          <caret line="17" column="112" selection-start-line="17" selection-start-column="112" selection-end-line="17" selection-end-column="112" />
+          <folding>
+            <marker date="1465073582393" expanded="true" signature="1427:1532" placeholder="..." />
+            <marker date="1465073582393" expanded="false" signature="1481:1519" placeholder="..." />
+            <marker date="1465073582393" expanded="true" signature="1588:1697" placeholder="..." />
+            <marker date="1465073582393" expanded="true" signature="1649:1697" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/public/images/bx-next.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/category/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3333334">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/category/edit.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/products/edit.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.222222">
-          <caret line="14" column="89" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-4.0">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/ProductsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.3285198">
-          <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
-          <folding>
-            <element signature="e#40#71#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.71681416">
+          <caret line="145" column="27" selection-start-line="145" selection-start-column="27" selection-end-line="145" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>

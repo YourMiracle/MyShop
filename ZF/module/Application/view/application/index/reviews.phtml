@@ -1,14 +1,21 @@
-
-<div id="wrapper">
+<div id="wrapper" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+     xmlns="http://www.w3.org/1999/html">
     <div id="gradient">
         <div class="content">
-            <div class="catalog-title">
-                <h1>Отзывы</h1>
-
-
-        </div>
+            <?php foreach ($reviews as $value ) :  ?>
+            <dl>
+                <dt><?= $value->nickname?></dt>
+                <dd><?= $value->reviews?></dd>
+            </dl>
+            <?php endforeach; ?>
+            <h1>Воспользовались нашими услугами - оставте отзыв</h1>
+                <form method="post" action="/writeReviews">
+                    <br><input type="text" name="nickname" placeholder="Ваш логин"></br>
+                    <br><textarea  name="reviews" placeholder="Ваш отзыв"></textarea></br>
+                    <label><?= $this->error ?></label>
+                    <br><input type="submit" value="Спасибо за отзыв!"></br>
+                </form>
+            </form>
         </div>
     </div>
-
-
 </div>

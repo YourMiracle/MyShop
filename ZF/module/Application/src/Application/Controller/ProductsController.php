@@ -72,17 +72,22 @@ class ProductsController extends Controller
 //                var_dump($file);exit;
                 $size = new Size(array('min'=>2000000));
                 $model = new Products();
-                $adapter = new \Zend\File\Transfer\Adapter\Http();
-                $adapter->setValidators(array($size), $file['name']);
-                 $adapter->setDestination(getcwd().'/public/images/uploads');
-                 $adapter->receive($file['path']);
+                $pathImg=null;
+                if(!empty($file)){
+                    $adapter = new \Zend\File\Transfer\Adapter\Http();
+                    $adapter->setValidators(array($size), $file['name']);
+                    $adapter->setDestination(getcwd().'/public/images/uploads');
+                    $adapter->receive($file['path']);
+                    $pathImg = stristr($adapter->getFileName('path'),'/images/uploads/');
+                }
+
 
                 $model->exchangeArray([
                     'title'=>$title,
                     'costoff'=>$costOff,
                     'description'=>$description,
                     'categories_id' => $categoryId,
-                    'path'=> stristr($adapter->getFileName('path'),'/images/uploads/')
+                    'path'=> $pathImg
                 ]);
                $this->getProductsTable()->saveProducts($model);
 
@@ -125,10 +130,19 @@ class ProductsController extends Controller
 
                 $file    = $this->thisVar->getRequest()->getFiles('path');
                 $size = new Size(array('min'=>2000000));
-                $adapter = new \Zend\File\Transfer\Adapter\Http();
-                $adapter->setValidators(array($size), $file['name']);
-                $adapter->setDestination(getcwd().'/public/images/uploads');
-                $adapter->receive($file['path']);
+                $pathImg = null;
+                if(!empty($file) and mb_strlen($file['name']) > 0) {
+                    $adapter = new \Zend\File\Transfer\Adapter\Http();
+                    $adapter->setValidators(array($size), $file['name']);
+                    $adapter->setDestination(getcwd() . '/public/images/uploads');
+                    $adapter->receive($file['path']);
+                    $pathImg = stristr($adapter->getFileName('path'),'/images/uploads/');
+                }else{
+                    $data = $this->getProductsTable()->getProducts($id);
+                    $pathImg = $data->path;
+                }
+
+
                 $model = new Products();
                 $model->exchangeArray([
                     'title'=>$title,
@@ -136,7 +150,7 @@ class ProductsController extends Controller
                     'description'=>$description,
                     'id'=> $id,
                     'categories_id' => $categoryId,
-                    'path'=> stristr($adapter->getFileName('path'),'/images/uploads/')
+                    'path'=> $pathImg
                 ]);
                 $this->getProductsTable()->updateProducts($model);
                 $this->getPropertiesTable()->delete($id);

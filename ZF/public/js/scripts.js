@@ -1,6 +1,12 @@
 
 $(function(){
 
+    if(window.location.pathname == '/'){
+
+        $('.bxslider').bxSlider({
+
+
+        });
     var colors = new Array(
         [62,35,255],
         [60,255,60],
@@ -61,6 +67,7 @@ $(function(){
     }
 
     setInterval(updateGradient,10);
+    }
     $('.nav-hover').mouseover(function () {
 
         $('.hover-menu').animate({
@@ -90,8 +97,76 @@ $(function(){
                 $(this).removeClass('active');
 
     })
-    $('.bxslider').bxSlider({
 
-        
-    });
+
+    function setCookie(name, value, options) {
+        options = options || {};
+
+        var expires = options.expires;
+
+        if (typeof expires == "number" && expires) {
+            var d = new Date();
+            d.setTime(d.getTime() + expires * 1000);
+            expires = options.expires = d;
+        }
+        if (expires && expires.toUTCString) {
+            options.expires = expires.toUTCString();
+        }
+
+        value = encodeURIComponent(value);
+
+        var updatedCookie = name + "=" + value;
+
+        for (var propName in options) {
+            updatedCookie += "; " + propName;
+            var propValue = options[propName];
+            if (propValue !== true) {
+                updatedCookie += "=" + propValue;
+            }
+        }
+
+        document.cookie = updatedCookie;
+    }
+
+    $('.filter-price').click(function(){
+        var data = new Array ;
+        $('.filter-price').each(function(k,v){
+            if($(this).prop("checked")){
+                data.push($(this).val());
+            }
+        });
+        document.cookie = "prices="+data;
+
+        $.ajax({
+            url : '/catalog',
+            success: function(res){
+                $('.goods').html($(res).find('.goods').html());
+            }
+        })
+    })
+    $('.list-group-item').click(function(){
+
+        document.cookie = "cat="+$(this).data('id');
+
+        $.ajax({
+            url : '/catalog',
+            success: function(res){
+                $('.goods').html($(res).find('.goods').html());
+            }
+        })
+    })
+
+    $('.clear-filter').click(function(){
+
+        document.cookie = "cat=";
+        document.cookie = "prices=";
+        $.ajax({
+            url : '/catalog',
+            success: function(res){
+                $('.goods').html($(res).find('.goods').html());
+            }
+        })
+    })
+
+
 })

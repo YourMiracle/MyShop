@@ -44,7 +44,9 @@
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
+                <li class="active"><a href="<?php echo $this->url('success', array('controller_name'=>'reviews','action_name'=>'index')); ?>" class="reviews">Отзывы</a></li>
                 <li class="active"><a href="<?php echo $this->url('success', array('controller_name'=>'category','action_name'=>'index')); ?>" class="category">Категории</a></li>
+                <li class="active"><a href="<?php echo $this->url('success', array('controller_name'=>'answerAndQuestion','action_name'=>'index')); ?>" class="category">Воросы</a></li>
             </ul>
             <p class="navbar-text navbar-right"><a href="<?php echo $this->url('login/process', array('action'=>'logout')); ?>">Выйти</a></p>
         </div>
