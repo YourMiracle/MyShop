@@ -9,12 +9,18 @@
 
 namespace Application\Controller;
 
+use Application\Model\AnswerAndQuestion;
+use Symfony\Component\Console\Question\Question;
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
+use Application\Model\Reviews;
 
 class IndexController extends AbstractActionController
 {
+    protected $reviewsTable;
     protected $categoriesTable;
+    protected $answerQuestionTable;
+
     public function getCategoriesTable()
     {
         if (!$this->categoriesTable) {
@@ -24,6 +30,26 @@ class IndexController extends AbstractActionController
         }
         return $this->categoriesTable;
     }
+
+    public function getReviewsTable()
+    {
+        if (!$this->reviewsTable) {
+            $sm = $this->getServiceLocator();
+
+            $this->reviewsTable = $sm->get('Application\Model\ReviewsTable');
+        }
+        return $this->reviewsTable;
+    }
+    public function getQuestionTable()
+    {
+        if (!$this->answerQuestionTable) {
+            $sm = $this->getServiceLocator();
+
+            $this->answerQuestionTable = $sm->get('Application\Model\AnswerAndQuestionTable');
+        }
+        return $this->answerQuestionTable;
+    }
+
     public function indexAction()
     {
         
@@ -42,9 +68,30 @@ class IndexController extends AbstractActionController
         return new ViewModel();
     }
     public function reviewsAction(){
-        return new ViewModel();
+        
+        return new ViewModel([
+            'reviews' => $this->getReviewsTable()->getBuyPublish(),
+        ]);
+
     }
-    public function NikeAction(){
-        return new ViewModel();
+    public function writeReviewsAction(){
+        $data = [
+            'nickname' => $this->getRequest()->getPost('nickname') ,
+            'reviews' => $this->getRequest()->getPost('reviews')
+        ];
+        $model = new Reviews();
+        $model->exchangeArray($data);
+        $this->getReviewsTable()->saveReviews($model);
+        return $this->redirect()->toUrl('/reviews');
+    }
+    public function writeQuestionAction(){
+        $data = [
+            'nickname' => $this->getRequest()->getPost('nickname') ,
+            'question' => $this->getRequest()->getPost('question')
+        ];
+        $model = new AnswerAndQuestion();
+        $model->exchangeArray($data);
+        $this->getQuestionTable()->saveQuestion($model);
+        return $this->redirect()->toUrl('/answer_question');
     }
 }

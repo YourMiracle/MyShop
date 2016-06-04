@@ -15,98 +15,102 @@ return array(
             'home' => array(
                 'type' => 'Zend\Mvc\Router\Http\Literal',
                 'options' => array(
-                    'route'    => '/',
+                    'route' => '/',
                     'defaults' => array(
                         'controller' => 'Application\Controller\Index',
-                        'action'     => 'index',
+                        'action' => 'index',
                     ),
                 ),
             ),
 
             'catalog' => array(
-                'type' => 'Zend\Mvc\Router\Http\Literal',
+                'type' => 'segment',
                 'options' => array(
-                    'route'    => '/catalog',
+                    'route' => '/catalog[/:title]',
+                    'constraints' => [
+                        'title' => '[a-zA-z]*'
+                    ],
                     'defaults' => array(
                         'controller' => 'Application\Controller\Index',
-                        'action'     => 'catalog',
+                        'action' => 'catalog',
+                        'title' => ' '
                     ),
                 ),
             ),
             'answerQuestion' => array(
                 'type' => 'Zend\Mvc\Router\Http\Literal',
                 'options' => array(
-                    'route'    => '/answer_question',
+                    'route' => '/answer_question',
                     'defaults' => array(
                         'controller' => 'Application\Controller\Index',
-                        'action'     => 'answerQuestion',
+                        'action' => 'answerQuestion',
+                    ),
+                ),
+            ),
+            'writeReviews' => array(
+                'type' => 'Zend\Mvc\Router\Http\Literal',
+                'options' => array(
+                    'route' => '/writeReviews',
+                    'defaults' => array(
+                        'controller' => 'Application\Controller\Index',
+                        'action' => 'writeReviews',
+                    ),
+                ),
+            ),
+            'writeQuestion' => array(
+                'type' => 'Zend\Mvc\Router\Http\Literal',
+                'options' => array(
+                    'route' => '/writeQuestion',
+                    'defaults' => array(
+                        'controller' => 'Application\Controller\Index',
+                        'action' => 'writeQuestion',
                     ),
                 ),
             ),
             'reviews' => array(
                 'type' => 'Zend\Mvc\Router\Http\Literal',
                 'options' => array(
-                    'route'    => '/reviews',
+                    'route' => '/reviews',
                     'defaults' => array(
                         'controller' => 'Application\Controller\Index',
-                        'action'     => 'reviews',
+                        'action' => 'reviews',
                     ),
                 ),
             ),
-            'Nike' => array(
-                'type' => 'Zend\Mvc\Router\Http\Literal',
-                'options' => array(
-                    'route'    => '/Nike',
-                    'defaults' => array(
-                        'controller' => 'Application\Controller\Index',
-                        'action'     => 'Nike',
-                    ),
-                ),
-            ),
-            'Adidas' => array(
-                'type' => 'Zend\Mvc\Router\Http\Literal',
-                'options' => array(
-                    'route'    => '/Adidas',
-                    'defaults' => array(
-                        'controller' => 'Application\Controller\Index',
-                        'action'     => 'Adidas',
-                    ),
-                ),
-            ),
+
             // The following is a route to simplify getting started creating
             // new controllers and actions without needing to create a new
             // module. Simply drop new controllers in, and you can access them
             // using the path /application/:controller/:action
             'login' => array(
-                'type'    => 'Literal',
+                'type' => 'Literal',
                 'options' => array(
-                    'route'    => '/auth',
+                    'route' => '/auth',
                     'defaults' => array(
                         '__NAMESPACE__' => 'Application\Controller',
-                        'controller'    => 'Admin',
-                        'action'        => 'login',
+                        'controller' => 'Admin',
+                        'action' => 'login',
                     ),
                 ),
                 'may_terminate' => true,
                 'child_routes' => array(
                     'process' => array(
-                        'type'    => 'Segment',
+                        'type' => 'Segment',
                         'options' => array(
-                            'route'    => '/[:action]',
+                            'route' => '/[:action]',
                             'constraints' => array(
                                 'controller' => '[a-zA-Z][a-zA-Z0-9_-]*',
-                                'action'     => '[a-zA-Z][a-zA-Z0-9_-]*',
+                                'action' => '[a-zA-Z][a-zA-Z0-9_-]*',
                             ),
-                            'defaults' => array(
-                            ),
+                            'defaults' => array(),
                         ),
                     ),
                 ),
             ),
             'success' => array(
-                'type'    => 'segment',
+                'type' => 'segment',
                 'options' => array(
-                    'route'    => '/success[/:controller_name][/:action_name][/:id]',
+                    'route' => '/success[/:controller_name][/:action_name][/:id]',
                     'constraints' => array(
                         'controller_name' => '[a-zA-Z]*',
                         'action_name' => '[a-zA-Z]*',
@@ -114,35 +118,34 @@ return array(
                     ),
                     'defaults' => array(
                         '__NAMESPACE__' => 'Application\Controller',
-                        'controller'    => 'Success',
-                        'action'        => 'index',
+                        'controller' => 'Success',
+                        'action' => 'index',
                     ),
                 )
 
             ),
             'application' => array(
-                'type'    => 'Literal',
+                'type' => 'Literal',
                 'options' => array(
-                    'route'    => '/application',
+                    'route' => '/application',
                     'defaults' => array(
                         '__NAMESPACE__' => 'Application\Controller',
-                        'controller'    => 'Index',
-                        'action'        => 'index',
+                        'controller' => 'Index',
+                        'action' => 'index',
                     ),
 
                 ),
                 'may_terminate' => true,
                 'child_routes' => array(
                     'default' => array(
-                        'type'    => 'Segment',
+                        'type' => 'Segment',
                         'options' => array(
-                            'route'    => '/[:controller[/:action]]',
+                            'route' => '/[:controller[/:action]]',
                             'constraints' => array(
                                 'controller' => '[a-zA-Z][a-zA-Z0-9_-]*',
-                                'action'     => '[a-zA-Z][a-zA-Z0-9_-]*',
+                                'action' => '[a-zA-Z][a-zA-Z0-9_-]*',
                             ),
-                            'defaults' => array(
-                            ),
+                            'defaults' => array(),
                         ),
                     ),
                 ),
@@ -162,9 +165,9 @@ return array(
         'locale' => 'en_US',
         'translation_file_patterns' => array(
             array(
-                'type'     => 'gettext',
+                'type' => 'gettext',
                 'base_dir' => __DIR__ . '/../language',
-                'pattern'  => '%s.mo',
+                'pattern' => '%s.mo',
             ),
         ),
     ),
@@ -173,21 +176,23 @@ return array(
             'Application\Controller\Index' => Controller\IndexController::class,
             'Application\Controller\Admin' => Controller\AdminController::class,
             'Application\Controller\Success' => Controller\SuccessController::class,
-            'Application\Controller\Category' => Controller\CategoryController::class
+            'Application\Controller\Category' => Controller\CategoryController::class,
+            'Application\Controller\Reviews' => Controller\ReviewsController::class,
+            'Application\Controller\AnswerAndQuestion' => Controller\AnswerAndQuestionController::class
 
         ),
     ),
     'view_manager' => array(
         'display_not_found_reason' => true,
-        'display_exceptions'       => true,
-        'doctype'                  => 'HTML5',
-        'not_found_template'       => 'error/404',
-        'exception_template'       => 'error/index',
+        'display_exceptions' => true,
+        'doctype' => 'HTML5',
+        'not_found_template' => 'error/404',
+        'exception_template' => 'error/index',
         'template_map' => array(
-            'layout/layout'           => __DIR__ . '/../view/layout/layout.phtml',
+            'layout/layout' => __DIR__ . '/../view/layout/layout.phtml',
             'application/index/index' => __DIR__ . '/../view/application/index/index.phtml',
-            'error/404'               => __DIR__ . '/../view/error/404.phtml',
-            'error/index'             => __DIR__ . '/../view/error/index.phtml',
+            'error/404' => __DIR__ . '/../view/error/404.phtml',
+            'error/index' => __DIR__ . '/../view/error/index.phtml',
         ),
         'template_path_stack' => array(
             __DIR__ . '/../view',
@@ -196,8 +201,7 @@ return array(
     // Placeholder for console routes
     'console' => array(
         'router' => array(
-            'routes' => array(
-            ),
+            'routes' => array(),
         ),
     ),
 );

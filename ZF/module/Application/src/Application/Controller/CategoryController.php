@@ -33,7 +33,6 @@ class CategoryController extends Controller
 
     public function indexAction()
     {
-//        var_dump($this->getCategoriesTable()->fetchAll());exit;
 
         return $this->render(['items' => $this->getCategoriesTable()->fetchAll()]);
     }

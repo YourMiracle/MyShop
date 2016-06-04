@@ -1,33 +1,264 @@
 
 <div id="wrapper">
 
-    <!--      <div class="col-md-4">-->
-    <!--         <h1>My shop</h1>-->
-    <!--      </div>-->
-    <!--      <div class="col-md-6">-->
-    <!--         <img src="http://scontent-b.cdninstagram.com/hphotos-xfp1/t51.2885-15/1515341_1377857025802836_1279211066_n.jpg">-->
-    <!--      </div>-->
-    <div id="gradient">
-        <div class="content">
-            <div class="catalog-title">
-                <h1>Все Товары</h1>
-
-                <table class="table">
-                    <tr>
-                        <th>Title</th>
-                        <th>Artist</th>
-                      
-                    </tr>
-                    <?php foreach ($categories as $album) : ?>
-                        <tr>
-                            <td><?php echo $this->escapeHtml($album->id);?></td>
-                            <td><?php echo $this->escapeHtml($album->title);?></td>
-
-                        </tr>
-                    <?php endforeach; ?>
-                </table>
-        </div>
-    </div>
+        <body>
+        <div id="wrapper">
+            <div id="content">
+                <div class="sidebar">
+                    <ul class="list-group">
+                        <a href="#"><li class="list-group-item border-top"><span class="badge">14</span>Nike</li></a>
+                        <a href="#"><li class="list-group-item"><span class="badge">14</span>Nike</li></a>
+                        <a href="#"><li class="list-group-item"><span class="badge">14</span>Nike</li></a>
+                        <a href="#"><li class="list-group-item"><span class="badge">14</span>Nike</li></a>
+                        <a href="#"><li class="list-group-item li-border"><span class="badge">14</span>Nike</li></a>
+                    </ul>
+                    <div class="filter">
+                        <h2>Фильтры</h2>
+                        <label><input type="checkbox" checked>Nike</label>
+                        <label><input type="checkbox" checked>Nike</label>
+                        <label><input type="checkbox" checked>Nike</label>
+                        <label><input type="checkbox" checked>Nike</label>
+                        <label><input type="checkbox" checked>Nike</label>
+                        <label><input type="checkbox" checked>Nike</label>
+                        <label><input type="checkbox" checked>Nike</label>
+                        <label><input type="checkbox" checked>Nike</label>
+                    </div>
+                </div>
+                <div class="goods">
+                    <h1>Товары</h1>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 goods-item">
+                            <a href="#"><img src="img/pic1.jpg"></a>
+                            <a href="#">
+                                <div class="describe-goods">
+                                    <h4>Nike</h4>
+                                    <p>Беговые кроссовки</p>
+                                    <p>2000 UAH</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 goods-item">
+                            <a href="#"><img src="img/pic1.jpg"></a>
+                            <a href="#">
+                                <div class="describe-goods">
+                                    <h4>Nike</h4>
+                                    <p>Беговые кроссовки</p>
+                                    <p>2000 UAH</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 goods-item">
+                            <a href="#"><img src="img/pic1.jpg"></a>
+                            <a href="#">
+                                <div class="describe-goods">
+                                    <h4>Nike</h4>
+                                    <p>Беговые кроссовки</p>
+                                    <p>2000 UAH</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 goods-item">
+                            <a href="#"><img src="img/pic1.jpg"></a>
+                            <a href="#">
+                                <div class="describe-goods">
+                                    <h4>Nike</h4>
+                                    <p>Беговые кроссовки</p>
+                                    <p>2000 UAH</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 goods-item">
+                            <a href="#"><img src="img/pic1.jpg"></a>
+                            <a href="#">
+                                <div class="describe-goods">
+                                    <h4>Nike</h4>
+                                    <p>Беговые кроссовки</p>
+                                    <p>2000 UAH</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 goods-item">
+                            <a href="#"><img src="img/pic1.jpg"></a>
+                            <a href="#">
+                                <div class="describe-goods">
+                                    <h4>Nike</h4>
+                                    <p>Беговые кроссовки</p>
+                                    <p>2000 UAH</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 goods-item">
+                            <a href="#"><img src="img/pic1.jpg"></a>
+                            <a href="#">
+                                <div class="describe-goods">
+                                    <h4>Nike</h4>
+                                    <p>Беговые кроссовки</p>
+                                    <p>2000 UAH</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 goods-item">
+                            <a href="#"><img src="img/pic1.jpg"></a>
+                            <a href="#">
+                                <div class="describe-goods">
+                                    <h4>Nike</h4>
+                                    <p>Беговые кроссовки</p>
+                                    <p>2000 UAH</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 goods-item">
+                            <a href="#"><img src="img/pic1.jpg"></a>
+                            <a href="#">
+                                <div class="describe-goods">
+                                    <h4>Nike</h4>
+                                    <p>Беговые кроссовки</p>
+                                    <p>2000 UAH</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 goods-item">
+                            <a href="#"><img src="img/pic1.jpg"></a>
+                            <a href="#">
+                                <div class="describe-goods">
+                                    <h4>Nike</h4>
+                                    <p>Беговые кроссовки</p>
+                                    <p>2000 UAH</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 goods-item">
+                            <a href="#"><img src="img/pic1.jpg"></a>
+                            <a href="#">
+                                <div class="describe-goods">
+                                    <h4>Nike</h4>
+                                    <p>Беговые кроссовки</p>
+                                    <p>2000 UAH</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 goods-item">
+                            <a href="#"><img src="img/pic1.jpg"></a>
+                            <a href="#">
+                                <div class="describe-goods">
+                                    <h4>Nike</h4>
+                                    <p>Беговые кроссовки</p>
+                                    <p>2000 UAH</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 goods-item">
+                            <a href="#"><img src="img/pic1.jpg"></a>
+                            <a href="#">
+                                <div class="describe-goods">
+                                    <h4>Nike</h4>
+                                    <p>Беговые кроссовки</p>
+                                    <p>2000 UAH</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 goods-item">
+                            <a href="#"><img src="img/pic1.jpg"></a>
+                            <a href="#">
+                                <div class="describe-goods">
+                                    <h4>Nike</h4>
+                                    <p>Беговые кроссовки</p>
+                                    <p>2000 UAH</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 goods-item">
+                            <a href="#"><img src="img/pic1.jpg"></a>
+                            <a href="#">
+                                <div class="describe-goods">
+                                    <h4>Nike</h4>
+                                    <p>Беговые кроссовки</p>
+                                    <p>2000 UAH</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 goods-item">
+                            <a href="#"><img src="img/pic1.jpg"></a>
+                            <a href="#">
+                                <div class="describe-goods">
+                                    <h4>Nike</h4>
+                                    <p>Беговые кроссовки</p>
+                                    <p>2000 UAH</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 goods-item">
+                            <a href="#"><img src="img/pic1.jpg"></a>
+                            <a href="#">
+                                <div class="describe-goods">
+                                    <h4>Nike</h4>
+                                    <p>Беговые кроссовки</p>
+                                    <p>2000 UAH</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 goods-item">
+                            <a href="#"><img src="img/pic1.jpg"></a>
+                            <a href="#">
+                                <div class="describe-goods">
+                                    <h4>Nike</h4>
+                                    <p>Беговые кроссовки</p>
+                                    <p>2000 UAH</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 goods-item">
+                            <a href="#"><img src="img/pic1.jpg"></a>
+                            <a href="#">
+                                <div class="describe-goods">
+                                    <h4>Nike</h4>
+                                    <p>Беговые кроссовки</p>
+                                    <p>2000 UAH</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3  col-sm-3 col-xs-3 goods-item">
+                            <a href="#"><img src="img/pic1.jpg"></a>
+                            <a href="#">
+                                <div class="describe-goods">
+                                    <h4>Nike</h4>
+                                    <p>Беговые кроссовки</p>
+                                    <p>2000 UAH</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+     
+<!--        <div class="content">-->
+<!--            <div class="catalog-title">-->
+<!--                <h1>Все Товары</h1>-->
+<!---->
+<!--                <table class="table">-->
+<!--                    <tr>-->
+<!--                        <th>Title</th>-->
+<!--                        <th>Artist</th>-->
+<!--                      -->
+<!--                    </tr>-->
+<!--                    --><?php //foreach ($categories as $album) : ?>
+<!--                        <tr>-->
+<!--                            <td>--><?php //echo $this->escapeHtml($album->id);?><!--</td>-->
+<!--                            <td>--><?php //echo $this->escapeHtml($album->title);?><!--</td>-->
+<!---->
+<!--                        </tr>-->
+<!--                    --><?php //endforeach; ?>
+<!--                </table>-->
+<!--        </div>-->
+<!--    </div>-->
 
 
 </div>

@@ -2,9 +2,14 @@
 
     <div id="gradient">
         <div class="content">
-            <div class="catalog-title">
+            <div class="question-title">
                 <h1>Часто задоваемые вопросы</h1>
-
+                <form method="post" action="/writeQuestion">
+                    <br><input type="text" name="nickname" placeholder="Ваш логин"></br>
+                    <br><textarea  name="question" placeholder="Ваш вопрос"></textarea></br>
+                    <label><?= $this->error ?></label>
+                    <br><input type="submit" value="Отправить"></br>
+                </form>
 
 
             </div>

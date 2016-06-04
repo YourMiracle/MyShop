@@ -1,0 +1,23 @@
+<h1>Отзывы</h1>
+<table class="table">
+    <thead>
+    <tr>
+        <th>Ник</th>
+        <th>Отзыв</th>
+        <th>Опубликованно</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <?php foreach($reviews as $v):?>
+        <tr>
+            <td><?= $v->nickname?></td>
+            <td><?= $v->reviews ?></td>
+            <td><a href="<?=  $this->url('success', ['controller_name'=>'reviews','action_name'=>'switch','id'=>$v->id])?>"><?= $v->publish ? 'Видно': 'Не видно' ?></a> </td>
+        </tr>
+    <?php endforeach;?>
+
+    </tbody>
+
+
+</table>

@@ -1,6 +1,9 @@
 
 $(function(){
 
+    if(window.location.pathname == '/'){
+
+
     var colors = new Array(
         [62,35,255],
         [60,255,60],
@@ -61,6 +64,7 @@ $(function(){
     }
 
     setInterval(updateGradient,10);
+    }
     $('.nav-hover').mouseover(function () {
 
         $('.hover-menu').animate({

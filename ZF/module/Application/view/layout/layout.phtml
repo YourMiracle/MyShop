@@ -2,6 +2,9 @@
 
 <html lang="en">
     <head>
+        <link href='https://fonts.googleapis.com/css?family=Poiret+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
         <meta charset="utf-8">
         <?php echo $this->headTitle('SHOP')?>
 
@@ -14,7 +17,7 @@
         <?php echo $this->headLink(array('rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/img/favicon.ico'))
             ->prependStylesheet($this->basePath('css/jquery.bxslider.css'))
 
-
+            ->prependStylesheet($this->basePath('css/style.css'))
             ->prependStylesheet($this->basePath('css/bootstrap-theme.min.css'))
                         ->prependStylesheet($this->basePath('css/bootstrap.min.css'))  ?>
 
@@ -52,7 +55,7 @@
                         <li><a href="<?php echo $this->url('reviews') ?>"><?php echo $this->translate('Отзывы') ?></a></li>
                     </ul>
                     <ul class="hover-menu" >
-                        <li><a href="<?php echo $this->url('Nike') ?>">Nike</a></li>
+                        <li><a href="#">Nike</a></li>
                         <li><a href="#">Adidas</a></li>
                         <li><a href="#">Asics</a></li>
                         <li><a href="#">NewBalance</a></li>

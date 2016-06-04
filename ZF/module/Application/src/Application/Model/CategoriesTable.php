@@ -39,9 +39,7 @@ class CategoriesTable
         $data = array(
             'title'  => $categories->title,
         );
-
-        $id = (int) $categories->id;
-
+        
             $this->tableGateway->insert($data);
 
     }

@@ -11,6 +11,10 @@ namespace Application;
 
 use Application\Model\Categories;
 use Application\Model\CategoriesTable;
+use Application\Model\Reviews;
+use Application\Model\ReviewsTable;
+use Application\Model\AnswerAndQuestion;
+use Application\Model\AnswerAndQuestionTable;
 use Zend\Mvc\ModuleRouteListener;
 use Zend\Mvc\MvcEvent;
 use Zend\Authentication\Adapter\DbTable as DbTableAuthAdapter;
@@ -57,6 +61,28 @@ class Module
                     $resultSetPrototype = new ResultSet();
                     $resultSetPrototype->setArrayObjectPrototype(new Categories());
                     return new TableGateway('categories', $dbAdapter, null, $resultSetPrototype);
+                },
+                'Application\Model\ReviewsTable' =>  function($sm) {
+                    $tableGateway = $sm->get('ReviewsTableGateway');
+                    $table = new ReviewsTable($tableGateway);
+                    return $table;
+                },
+                'ReviewsTableGateway' => function ($sm) {
+                    $dbAdapter = $sm->get('Zend\Db\Adapter\Adapter');
+                    $resultSetPrototype = new ResultSet();
+                    $resultSetPrototype->setArrayObjectPrototype(new Reviews());
+                    return new TableGateway('reviews', $dbAdapter, null, $resultSetPrototype);
+                },
+                'Application\Model\AnswerAndQuestionTable' =>  function($sm) {
+                    $tableGateway = $sm->get('AnswerAndQuestionTableGateway');
+                    $table = new AnswerAndQuestionTable($tableGateway);
+                    return $table;
+                },
+                'AnswerAndQuestionTableGateway' => function ($sm) {
+                    $dbAdapter = $sm->get('Zend\Db\Adapter\Adapter');
+                    $resultSetPrototype = new ResultSet();
+                    $resultSetPrototype->setArrayObjectPrototype(new AnswerAndQuestion());
+                    return new TableGateway('answer_question', $dbAdapter, null, $resultSetPrototype);
                 },
             ),
         );
