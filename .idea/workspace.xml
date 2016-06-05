@@ -2,51 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d18e5351-aef6-4dc3-a287-eb887fd141cf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/AnswerAndQuestionController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/ReviewsController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/AnswerAndQuestion.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/AnswerAndQuestionTable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Reviews.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/ReviewsTable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/view/application/answerAndQuestion/index.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/view/application/index/answer-question.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ZF/module/Application/view/application/reviews/index.phtml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/module/Application/view/application/index/aandq.phtml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/php6U1yuM_img_D.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/php7eaocD_img_D.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phpCzu4ng_img_D.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phpFxpkvj_img_D.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phpHbKH1g_img_D.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phpMR5hpA_img_D.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phpaQkHcC_cat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phpdEYC4u_img_D.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phpfy2ZSZ_img_D.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phpgsKDAZ_images.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phpnE0l9M_img_D.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phprNEvTA_rklc-pjt8gE.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phprXb3NU_img_D.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ZF/public/images/uploads/phpyRfd3f_img_D.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/shop.iml" afterPath="$PROJECT_DIR$/.idea/shop.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/config/autoload/global.php" afterPath="$PROJECT_DIR$/ZF/config/autoload/global.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/Module.php" afterPath="$PROJECT_DIR$/ZF/module/Application/Module.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/config/module.config.php" afterPath="$PROJECT_DIR$/ZF/module/Application/config/module.config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/CategoryController.php" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/CategoryController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/IndexController.php" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/ProductsController.php" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/ProductsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/CategoriesTable.php" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/CategoriesTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/ProductsTable.php" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/ProductsTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/PropertiesTable.php" afterPath="$PROJECT_DIR$/ZF/module/Application/src/Application/Model/PropertiesTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/view/application/category/index.phtml" afterPath="$PROJECT_DIR$/ZF/module/Application/view/application/category/index.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/view/application/index/catalog.phtml" afterPath="$PROJECT_DIR$/ZF/module/Application/view/application/index/catalog.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/view/application/index/reviews.phtml" afterPath="$PROJECT_DIR$/ZF/module/Application/view/application/index/reviews.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/view/layout/admin.phtml" afterPath="$PROJECT_DIR$/ZF/module/Application/view/layout/admin.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/module/Application/view/layout/layout.phtml" afterPath="$PROJECT_DIR$/ZF/module/Application/view/layout/layout.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/css/style.css" afterPath="$PROJECT_DIR$/ZF/public/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/index.php" afterPath="$PROJECT_DIR$/ZF/public/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ZF/public/js/scripts.js" afterPath="$PROJECT_DIR$/ZF/public/js/scripts.js" />
     </list>
     <ignored path="shop.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,7 +44,7 @@
       <file leaf-file-name="Products.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/Products.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -98,7 +54,7 @@
       <file leaf-file-name="edit.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/category/edit.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -108,7 +64,7 @@
       <file leaf-file-name="edit.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/products/edit.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
               <folding />
             </state>
@@ -118,7 +74,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ZF/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="9" column="0" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="35" />
               <folding />
             </state>
@@ -135,7 +91,7 @@
       <file leaf-file-name="index.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/category/index.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3333334">
+            <state vertical-scroll-proportion="0.0">
               <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
               <folding />
             </state>
@@ -145,8 +101,8 @@
       <file leaf-file-name="ProductsController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/ProductsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71681416">
-              <caret line="145" column="27" selection-start-line="145" selection-start-column="27" selection-end-line="145" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.54611653">
+              <caret line="134" column="70" selection-start-line="134" selection-start-column="70" selection-end-line="134" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -155,13 +111,10 @@
       <file leaf-file-name="catalog.phtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/index/catalog.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.333333">
+            <state vertical-scroll-proportion="0.0">
               <caret line="17" column="112" selection-start-line="17" selection-start-column="112" selection-end-line="17" selection-end-column="112" />
               <folding>
                 <marker date="1465073582393" expanded="true" signature="1427:1532" placeholder="..." />
-                <marker date="1465073582393" expanded="false" signature="1481:1519" placeholder="..." />
-                <marker date="1465073582393" expanded="true" signature="1588:1697" placeholder="..." />
-                <marker date="1465073582393" expanded="true" signature="1649:1697" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -170,7 +123,7 @@
       <file leaf-file-name="ProductsTable.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/ProductsTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.148149">
+            <state vertical-scroll-proportion="0.0">
               <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
               <folding />
             </state>
@@ -287,8 +240,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -669,6 +620,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -803,7 +756,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20863836" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2124031" sideWeight="0.49690402" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2744186" sideWeight="0.49690402" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -836,6 +789,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/ProductsTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/index/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -903,7 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -911,7 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -926,9 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="84" column="58" selection-start-line="84" selection-start-column="58" selection-end-line="84" selection-end-column="58" />
-          <folding>
-            <element signature="e#354#387#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -944,7 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -952,7 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="155" column="1" selection-start-line="155" selection-start-column="1" selection-end-line="155" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -967,7 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -975,7 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -983,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,7 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,7 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1007,7 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="83" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,9 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-          <folding>
-            <element signature="e#42#91#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1025,7 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,7 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1049,7 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.148149">
           <caret line="50" column="50" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1057,7 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.1851852">
           <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,7 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.6666667">
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1081,7 +1021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.037037">
           <caret line="27" column="35" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1089,7 +1028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7351695">
           <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1097,10 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33262712">
           <caret line="278" column="50" selection-start-line="278" selection-start-column="38" selection-end-line="278" selection-end-column="50" />
-          <folding>
-            <marker date="1460644036000" expanded="true" signature="1919:1940" placeholder="SELECT %1$s " />
-            <marker date="1460644036000" expanded="true" signature="2070:2096" placeholder="SELECT %1$s " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1108,7 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.6666665">
           <caret line="81" column="23" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1116,7 +1049,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34863946">
           <caret line="2" column="14484" selection-start-line="2" selection-start-column="14484" selection-end-line="2" selection-end-column="14484" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1124,7 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18367347">
           <caret line="1" column="819" selection-start-line="1" selection-start-column="819" selection-end-line="1" selection-end-column="819" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1132,7 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="158" column="40" selection-start-line="158" selection-start-column="40" selection-end-line="158" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1140,9 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.5185184">
           <caret line="82" column="11" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
-          <folding>
-            <element signature="e#365#405#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1150,7 +1077,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43141592">
           <caret line="235" column="31" selection-start-line="235" selection-start-column="19" selection-end-line="235" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1158,7 +1084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.851851">
           <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1172,7 +1097,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Model/ProductsTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.148149">
+        <state vertical-scroll-proportion="0.0">
           <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
           <folding />
         </state>
@@ -1180,20 +1105,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/index/catalog.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.333333">
+        <state vertical-scroll-proportion="0.0">
           <caret line="17" column="112" selection-start-line="17" selection-start-column="112" selection-end-line="17" selection-end-column="112" />
           <folding>
             <marker date="1465073582393" expanded="true" signature="1427:1532" placeholder="..." />
-            <marker date="1465073582393" expanded="false" signature="1481:1519" placeholder="..." />
-            <marker date="1465073582393" expanded="true" signature="1588:1697" placeholder="..." />
-            <marker date="1465073582393" expanded="true" signature="1649:1697" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ZF/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="35" />
           <folding />
         </state>
@@ -1206,7 +1128,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/category/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3333334">
+        <state vertical-scroll-proportion="0.0">
           <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
           <folding />
         </state>
@@ -1222,7 +1144,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ZF/module/Application/view/application/products/edit.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
           <folding />
         </state>
@@ -1230,8 +1152,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ZF/module/Application/src/Application/Controller/ProductsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71681416">
-          <caret line="145" column="27" selection-start-line="145" selection-start-column="27" selection-end-line="145" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.54611653">
+          <caret line="134" column="70" selection-start-line="134" selection-start-column="70" selection-end-line="134" selection-end-column="70" />
           <folding />
         </state>
       </provider>
