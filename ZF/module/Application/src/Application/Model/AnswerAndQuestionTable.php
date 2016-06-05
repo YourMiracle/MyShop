@@ -24,7 +24,7 @@ class AnswerAndQuestionTable {
         $data = $this->getQuestion($id);
 
         $this->tableGateway->update([
-            'publish' => $data->publish ? 0 :1,
+            'publish' => $data->publish == 1 ? 0 :1,
         ],
             ['id'=>$id]
         );
@@ -57,5 +57,9 @@ class AnswerAndQuestionTable {
 
         $this->tableGateway->insert($data);
 
+    }
+    public function delete($id)
+    {
+        $this->tableGateway->delete(array('id' => (int) $id));
     }
 }

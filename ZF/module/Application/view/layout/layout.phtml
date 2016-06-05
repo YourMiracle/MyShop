@@ -25,6 +25,8 @@
 
         <!-- Scripts -->
         <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/jquery.bxslider.min.js"></script>
         <?php echo $this->headScript()
             ->prependFile($this->basePath('js/bootstrap.min.js'))
 //            ->prependFile($this->basePath('js/jquery.min.js'))
@@ -64,27 +66,27 @@
                 </div><!--/.nav-collapse -->
             </div>
         </nav>
-        <div class="container">
+
             <?php echo $this->content; ?>
             
             <footer id="footer">
-                    <div class="container">
-                        <div class="navbar-header">
+
+                        <div>
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
                         </div>
-                        <div class="collapse navbar-collapse">
+                        <div>
                             <a target="_blank" href="https://vk.com/spockew">VK</a>
                             <p>tvoijesus@gmail.com</p>
                             <p>0961411281</p>
                             <p>0933294381</p>
                         </div><!--/.nav-collapse -->
-                    </div>
+
             </footer>
-        </div> <!-- /container -->
+        <!-- /container -->
         <?php echo $this->inlineScript() ?>
     </body>
 </html>

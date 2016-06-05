@@ -40,6 +40,7 @@ class AnswerAndQuestionController extends Controller {
     {
 
         $id = $this->thisVar->params()->fromRoute('id');
+        
 
         $check = $this->getQuestionTable()->switchQuestion($id);
 
@@ -47,6 +48,11 @@ class AnswerAndQuestionController extends Controller {
             return $this->thisVar->redirect()->toUrl('/success/answerAndQuestion/index');
         }
 
+    }
+    public function deleteAction(){
+        $id = $this->thisVar->params()->fromRoute('id');
+        $this->getQuestionTable()->delete($id);
+        return $this->thisVar->redirect()->toUrl('/success/answerAndQuestion/index');
     }
 
 }

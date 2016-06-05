@@ -53,7 +53,10 @@ class ReviewsController extends Controller
         }
 
 
-
-
+    }
+    public function deleteAction(){
+        $id = $this->thisVar->params()->fromRoute('id');
+        $this->getReviewsTable()->delete($id);
+        return $this->thisVar->redirect()->toUrl('/success/reviews/index');
     }
 }

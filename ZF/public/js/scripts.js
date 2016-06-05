@@ -94,8 +94,41 @@ $(function(){
                 $(this).removeClass('active');
 
     })
-    $('.bxslider').bxSlider({
 
+    $('#answ_que_form').submit(function (event) {
+        event.preventDefault();
+        $.ajax({
+            url : $(this).attr('action'),
+            type : 'post',
+            data: $(this).serialize(),
+            success : function () {
+                $(this).hide();
+                alert('Спасибо за ваш вопрос!');
+            }.bind(this)
+        })
+    });
+    $('#reviews_form').submit(function (event) {
+        event.preventDefault();
+        $.ajax({
+            url : $(this).attr('action'),
+            type : 'post',
+            data: $(this).serialize(),
+            success : function () {
+                $(this).hide();
+                alert('Спасибо за ваш отзыв!');
+            }.bind(this)
+        })
+    });
+
+    $('.bxslider').bxSlider({
+        auto: true,
+        minSlides: 1,
+        maxSlides: 1,
+        speed: 500,
+        pause: 3000,
+        autoHover: true,
+        mode: 'fade',
+        controls: false
         
     });
 })

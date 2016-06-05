@@ -1,12 +1,10 @@
-body {
-
-}
 
 .zf-green {
     color: #68b604;
 }
 .container{
-    margin: 0;
+    margin: 0 auto;
+    height:100%;
 }
 .btn-success {
   background-color: #57a900;
@@ -76,13 +74,13 @@ div.container a.brand {
     margin: 0;
     display: none;
 }
-#gradient
-{
-    width: 100%;
-    height: 1293px;
-    padding: 0 ;
-    margin: 0;
-}
+/*#gradient*/
+/*{*/
+    /*width: 100%;*/
+    /*height: 1293px;*/
+    /*padding: 0 ;*/
+    /*margin: 0;*/
+/*}*/
 
 .hover-menu a {
     font-family: 'Poiret One', cursive;
@@ -95,27 +93,29 @@ div.container a.brand {
 @media (min-width: 1200px){
     .container {
         width: 100%;
+        height:100%;
     }
 }
 .main-page-title{
-    position: absolute;
-    top: 30%;
-    left: 18%;
+
 }
 .main-page-title h1{
     font-size: 60px;
     font-family: 'Poiret One', cursive;
-    color: #f8f8f8;
+    color: #4A4444;
+    padding-top: 100px;
+    text-align: center;
+    margin: 0;
 }
 .main-page-title p{
     font-family: 'Poiret One', cursive;
-    color: #f8f8f8;
+    color: #4A4444;
     font-size: 30px;
     text-align: center;
     padding-top: 20px;
 
 }
-.main-page-title a{
+.main-page-title .all-goods{
     padding: 25px 50px ;
     background: #AFA8A8;
     opacity: 0.7;
@@ -134,11 +134,13 @@ div.container a.brand {
     opacity: 0.7;
     color: #f8f8f8;
 }
-.content{
-    padding: 100px 50px;
+.question-title h1{
+    padding: 100px 0 20px;
+    color: #4A4444;
 }
-.content-title h1{
-    color: black;
+.content-title {
+    width: 100%;
+    height:100%;
 }
 .catalog-title h1{
     text-align: center;
@@ -151,7 +153,6 @@ div.container a.brand {
     text-align: center;
     font-family: 'Poiret One', cursive;
     font-size: 60px;
-    color: black;
     margin: 0;
 }
 
@@ -160,7 +161,6 @@ div.container a.brand {
     border: none;
     opacity: 0.7;
     margin: 0;
-    position: absolute;
     width: 100%;
     height: 35px;
     text-align: center;
@@ -202,18 +202,16 @@ div.container a.brand {
     display: block !important;
     width: 30px !important;
     height: 33px !important;
-    background: #ffffff url(../images/bx-prev.png) no-repeat !important;
     left: 0 !important;
     top: 50% !important;
     margin-top: -17px !important;
     text-indent: -9999px !important;
 }
-.bx-next{
+.slider .bx-next{
     position: absolute !important;
     display: block !important;
     width: 30px !important;
     height: 33px !important;
-    background: #ffffff url(../images/bx-next.png) no-repeat !important;
     right: 0 !important;
     top: 50% !important;
     margin-top: -17px !important;
@@ -359,4 +357,185 @@ div.container a.brand {
 .goods-item img:hover, .goods-item img:focus, .goods-item img:active {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+}
+html{
+    height: 100%;
+}
+body{
+    height:100%;
+}
+#review-content {
+    margin: 0 auto;
+    height: 100%;
+
+}
+#review-content h1{
+    text-align: center;
+    color: #4E4D4D;
+    padding: 100px 0 30px ;
+    margin:0;
+    font-size: 60px;
+    font-family: 'Poiret One', cursive;
+}
+#review-content .review-list{
+    text-align: left;
+    list-style: none;
+
+}
+#review-content .review-list li{
+    padding: 20px 20px 30px;
+    line-height: 30px;
+    font-size: 20px;
+    color: #4E4D4D;
+    margin-bottom: 10px;
+    font-family: 'Poiret One', cursive;
+
+
+}
+.right{
+    text-align: right;
+}
+nav{
+    text-align: center;
+}
+.review-list strong{
+    padding-right: 10px;
+}
+.pagination a  {
+    background: transparent !important;
+    font-size:30px;
+    padding: 2px 15px !important;
+    margin-left:10px !important;
+    border-radius: 50%;
+    color: #444 !important;
+    font-family: 'Poiret One', cursive;
+
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+    border: 2px solid #4E4D4D;
+}
+
+.next,
+.previous{
+    border:none !important;
+}
+.next span,
+.previous span{
+    font-size: 34px;
+}
+body{
+    background: linear-gradient(270deg, #b8eadd, #3ef2c3, #eda0ee, #eea8a0, #b29ef0, #f5f0a0, #f96699);
+    background-size: 1400% 1400%;
+
+    -webkit-animation: AnimationName 39s ease infinite;
+    -moz-animation: AnimationName 39s ease infinite;
+    animation: AnimationName 39s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+#answ_que_form,
+#reviews_form{
+    text-align: center;
+    padding: 0 20%;
+    margin-bottom: 30px;
+}
+.answ-input,
+.review-text,
+.review-name{
+    padding: 10px 10px 30px;
+}
+#answ_que_form .btn,
+#reviews_form .btn{
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+}
+.content h1{
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+}
+
+
+
+
+/*SLIDER*/
+
+.bx-wrapper img{
+    width: 100%;
+}
+.slider a{
+    text-decoration: none;
+}
+.slider-text label{
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+    font-size: 17px;
+
+}
+.slider-text h3{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Poiret One', cursive;
+    font-weight: 700;
+}
+.slider-text{
+    position: absolute;
+    right: 0;
+    top: 5%;
+    text-align: right;
+    cursor: pointer;
+}
+.slider {
+     width: 100%;
+     padding: 0;
+     margin: 0 ;
+     border: none;
+     border-radius: 0;
+     background: #ffffff;
+     box-shadow:none;
+    position: relative;
+    opacity: 0.9;
+    margin-top: 50px;
+}
+.slider .col-md-12{
+    padding: 0;
+}
+.slider img{
+    height: 694px;
+    position: relative;
+}
+.bx-wrapper .bx-viewport{
+     box-shadow: none;
+     border: none;
+    left: 0;
+    height: 600px !important;
+}
+.bx-wrapper a:hover{
+    opacity: 1 !important;
+}
+#bx-pager a:hover {
+    opacity: 1 !important;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+    bottom: 11px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+.bx-wrapper{
+    margin: 0;
 }

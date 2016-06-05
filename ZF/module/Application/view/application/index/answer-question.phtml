@@ -1,14 +1,20 @@
 <div id="wrapper" xmlns="http://www.w3.org/1999/html">
 
-    <div id="gradient">
         <div class="content">
             <div class="question-title">
                 <h1>Часто задоваемые вопросы</h1>
-                <form method="post" action="/writeQuestion">
-                    <br><input type="text" name="nickname" placeholder="Ваш логин"></br>
-                    <br><textarea  name="question" placeholder="Ваш вопрос"></textarea></br>
+                <?php foreach ($question as $value ) :  ?>
+                    <dl>
+                        <dt><?= $value->nickname?></dt>
+                        <dd><?= $value->question?></dd>
+                    </dl>
+                <?php endforeach; ?>
+                <h1>Можете задать свой вопрос, и в скоре мы ответим на него</h1>
+                <form method="post" action="/writeQuestion" id="answ_que_form">
+                    <br><input type="text" name="nickname" placeholder="Ваш логин" class="form-control answ-input"></br>
+                    <br><textarea  name="question" placeholder="Ваш вопрос"  class="form-control answ-input"></textarea></br>
                     <label><?= $this->error ?></label>
-                    <br><input type="submit" value="Отправить"></br>
+                    <br><input type="submit" value="Отправить" class="btn btn-default"></br>
                 </form>
 
 
@@ -19,8 +25,7 @@
             </div>
 
         </div>
-
-    </div>
+    
 
 
 </div>

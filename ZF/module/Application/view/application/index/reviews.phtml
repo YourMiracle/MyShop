@@ -1,21 +1,59 @@
 <div id="wrapper" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
      xmlns="http://www.w3.org/1999/html">
-    <div id="gradient">
+    <div id="review-content">
+        <h1>Отзывы</h1>
+        <div class="review col-md-12">
+            <ul class="review-list list-group">
+                <li><strong>Имя:</strong> wcqcqc</br><strong>Отзыв:</strong>aaa acasa acascascsacas adcasckscnbsakc aksdjsakjc askcsacefewo weflewfnldksnc  alcaskn
+                </li>
+                <li class="right"><strong>Имя:</strong> wcqcqc</br><strong>Отзыв:</strong>akscnbsakc aksdjsakjc askcsacefewo weflewfnldksnc  alcaskn
+                </li>
+                <li><strong>Имя:</strong> wcqcqc</br><strong>Отзыв:</strong>akscnbsakc aksdjsakjc askcsacefewo weflewfnldksnc  alcaskn
+                </li>
+                <li class="right"><strong>Имя:</strong> wcqcqc</br><strong>Отзыв:</strong>akscnbsakc aksdjsakjc askcsacefewo weflewfnldksnc  alcaskn
+                </li>
+                <li><strong>Имя:</strong> wcqcqc</br><strong>Отзыв:</strong>akscnbsakc aksdjsakjc askcsacefewo weflewfnldksnc  alcaskn
+                </li>
+                <li class="right"><strong>Имя:</strong> wcqcqc</br><strong>Отзыв:</strong>akscnbsakc aksdjsakjc askcsacefewo weflewfnldksnc  alcaskn
+                </li>
+                <li><strong>Имя:</strong> wcqcqc</br><strong>Отзыв:</strong>akscnbsakc aksdjsakjc askcsacefewo weflewfnldksnc  alcaskn
+                </li>
+                <li class="right"><strong>Имя:</strong> wcqcqc</br><strong>Отзыв:</strong>akscnbsakc aksdjsakjc askcsacefewo weflewfnldksnc  alcaskn
+                </li>
+                <li><strong>Имя:</strong> wcqcqc</br><strong>Отзыв:</strong>akscnbsakc aksdjsakjc askcsacefewo weflewfnldksnc  alcaskn
+                </li>
+                <li class="right"><strong>Имя:</strong> wcqcqc</br><strong>Отзыв:</strong>akscnbsakc aksdjsakjc askcsacefewo weflewfnldksnc  alcaskn
+                </li>
+            </ul>
+        </div>
+        <nav class="col-md-12">
+            <ul class="pagination ">
+                <li><a href="#" aria-label="Previous" class="previous"><span aria-hidden="true">&laquo;</span></a></li>
+                <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">2 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">3 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">4 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#" aria-label="Next" class="next"><span aria-hidden="true">»</span></a></li>
+            </ul>
+        </nav>
+    </div>
+
         <div class="content">
             <?php foreach ($reviews as $value ) :  ?>
-            <dl>
-                <dt><?= $value->nickname?></dt>
-                <dd><?= $value->reviews?></dd>
-            </dl>
+                <dl>
+                    <dt><?= $value->nickname?></dt>
+                    <dd><?= $value->reviews?></dd>
+                </dl>
             <?php endforeach; ?>
+
             <h1>Воспользовались нашими услугами - оставте отзыв</h1>
-                <form method="post" action="/writeReviews">
-                    <br><input type="text" name="nickname" placeholder="Ваш логин"></br>
-                    <br><textarea  name="reviews" placeholder="Ваш отзыв"></textarea></br>
+
+                <form method="post" action="/writeReviews" id="reviews_form">
+                    <br><input type="text" name="nickname" placeholder="Ваш логин" class="form-control review-name"></br>
+                    <br><textarea  name="reviews" placeholder="Ваш отзыв" class="form-control review-text"></textarea></br>
                     <label><?= $this->error ?></label>
-                    <br><input type="submit" value="Спасибо за отзыв!"></br>
+                    <br><input type="submit" class="btn btn-default" value="Отправить"></br>
                 </form>
             </form>
         </div>
-    </div>
 </div>

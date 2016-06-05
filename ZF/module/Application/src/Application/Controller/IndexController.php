@@ -65,7 +65,11 @@ class IndexController extends AbstractActionController
         ));
     }
     public function answerQuestionAction(){
-        return new ViewModel();
+
+        return new ViewModel([
+            'question' => $this->getQuestionTable()->getBuyPublish(),
+        ]);
+        
     }
     public function reviewsAction(){
         

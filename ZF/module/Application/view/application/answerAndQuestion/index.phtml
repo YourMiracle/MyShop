@@ -4,7 +4,9 @@
     <tr>
         <th>Ник</th>
         <th>Вопрос</th>
-        <th>Ответить</th>
+        <th>Видимость</th>
+        <th>Отзывы</th>
+        <th>Удалить</th>
     </tr>
     </thead>
     <tbody>
@@ -13,7 +15,9 @@
         <tr>
             <td><?= $q->nickname?></td>
             <td><?= $q->question ?></td>
-            <td><a href="<?=  $this->url('success', ['controller_name'=>'answerAndQuestion','action_name'=>'switch','id'=>$v->id])?>"><?= $q->publish ? 'Видно': 'Не видно' ?></a> </td>
+            <td><a href="<?=  $this->url('success', ['controller_name'=>'answerAndQuestion','action_name'=>'switch','id'=>(int)$q->id])?>"><?= $q->publish ? 'Видно': 'Не видно' ?></a></td>
+            <td><input type="text" name="answer" placeholder="Ответ"></td>
+            <td><a href="<?=  $this->url('success', ['controller_name'=>'answerAndQuestion','action_name'=>'delete','id'=>$q->id])?>">Удалить</a></td>
         </tr>
     <?php endforeach;?>
 

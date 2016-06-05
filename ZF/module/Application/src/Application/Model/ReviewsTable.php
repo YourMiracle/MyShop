@@ -62,5 +62,9 @@ class ReviewsTable
         $this->tableGateway->insert($data);
 
     }
+    public function delete($id)
+    {
+        $this->tableGateway->delete(array('id' => (int) $id));
+    }
    
 }
